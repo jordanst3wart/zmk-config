@@ -14,9 +14,9 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | ALT |
-// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | SHFT  |
+// |  TAB |  Q  |  W  |  F  |  D  |  P  |   |  Y  |  U   |  L  |  K  |  /  | ALT |
+// | CTRL |  A  |  S  |  E  |  T  |  Y  |   |  H  |  N   |  O  |  I  |  R  |  '   |
+// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  J  |  M   |  ,  |  .  |  ;  | SHFT  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | BKSP |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp RALT
@@ -41,9 +41,9 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | RALT |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+// |  ESC |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  (  |  )  |  *  | RALT |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  {  |  }  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | BSPC |
                         bindings = <
    &kp  ESC  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp RALT
