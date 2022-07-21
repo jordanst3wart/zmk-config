@@ -41,9 +41,9 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC |  !  |  @  |  #  |  $  |  %  |   |  &  |  (  |  )   |  ^  |  *  | RALT |
-// | CTRL |     |     |     |     |     |   |  =  |  {  |  }   |  -  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  +  |  [  |  ]   |  _  | "|" |  ~   |
+// |  ESC |  !  |  @  |  #  |  $  |  %  |   |  &  |  (  |  )   |  *  |  ^  | RALT |
+// | CTRL |     |     |     |     |     |   |  =  |  {  |  }   |  _  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   | "|" |  [  |  ]   |  -  |  +  |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | BSPC |
                         bindings = <
    &kp  ESC  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp RALT
